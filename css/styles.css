@@ -37,6 +37,7 @@ section {
   margin-bottom: 10vh;
 }
 .header p {
+  font-size: 2rem;
   background-image: linear-gradient(
     45deg,
     rgb(177, 177, 220),
@@ -88,9 +89,9 @@ section {
 }
 .home-content h3 {
   color: black;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 450;
-  margin-bottom: 2rem;
+  margin-bottom: 0.7rem;
 }
 
 .home-content h1 {
@@ -200,7 +201,7 @@ section {
 .btn-cv {
   background-color: white;
   margin: 10px;
-  padding: 15px 45px;
+  padding: 17px 45px;
   text-align: center;
 
   transition: 0.5s;
@@ -228,7 +229,7 @@ section {
     rgb(92, 119, 243)
   );
   margin: 10px;
-  padding: 15px 45px;
+  padding: 17px 45px;
   text-align: center;
 
   transition: 0.5s;
@@ -644,6 +645,10 @@ section {
     height: 40vw;
   }
 
+  .portfolio-box img {
+    width: 42vw;
+  }
+
   /* section {
     padding: 7rem 3% 2rem;
   } */
@@ -667,8 +672,6 @@ section {
   }
   .services-container {
     gap: 2rem;
-  }
-  .services-container {
     flex-wrap: wrap;
   }
   .services-container .services-box {
@@ -681,19 +684,21 @@ section {
   }
 
   .footer {
-    padding: 1rem 3%;
+    padding: 1.5rem 3%;
   }
 
   .services,
   .portfolio,
   .feedback {
-    padding: 2rem 3rem;
+    padding: 1rem;
   }
   .feedback-container {
     padding: 1rem 1.5rem;
   }
+
   .portfolio-box {
-    height: 35vh;
+    height: 30vh;
+    padding: 1.5rem;
   }
   .contact-box {
     height: 35vh;
@@ -708,14 +713,21 @@ section {
   }
 
   .home-img {
-    width: 50vw;
-    height: 50vw;
+    width: 60vw;
+    height: 60vw;
   }
   .contact-socmed {
     display: inline;
   }
+  .contact-socmed p {
+    font-size: 110%;
+  }
+
   .contact-layer {
     gap: 2rem;
+  }
+  .contact-img {
+    display: none;
   }
   /* .home-container {
     padding: 0;
