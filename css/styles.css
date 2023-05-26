@@ -698,6 +698,25 @@ section {
   .contact-box {
     height: 35vh;
   }
+  .header {
+    margin: 1rem;
+    padding: 0;
+    padding-bottom: 1.2rem;
+  }
+  .home {
+    padding: 1.7rem;
+  }
+
+  .home-img {
+    width: 50vw;
+    height: 50vw;
+  }
+  .contact-socmed {
+    display: inline;
+  }
+  .contact-layer {
+    gap: 2rem;
+  }
   /* .home-container {
     padding: 0;
   } */
